@@ -103,7 +103,7 @@ html.theme-dark .app_de4237::after {
   padding: 16px;
   color: #fff;
 }
-html.theme-light .container_debb33 {
+html.theme-dark .container_debb33 {
   bottom: 81px !important;
 }
 
