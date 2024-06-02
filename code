@@ -103,10 +103,19 @@ html.theme-dark .app_de4237::after {
   padding: 16px;
   color: #fff;
 }
-html.theme-light .container_debb33 {
+html.theme-dark .container_debb33 {
   bottom: 81px !important;
 }
-
+html.theme-light .app_de4237::after {
+  content: "";
+  line-height: 1.5;
+  white-space: pre-wrap;
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
+  z-index: 1;
+  padding: 16px;
+  color: #fff;
+}
 .full-motion [class*=animator] {
   transform: none !important;
   transition: none !important;
